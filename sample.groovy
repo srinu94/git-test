@@ -20,16 +20,11 @@ pipeline {
                         }
                 }
                 steps {
-			echo "Hello"
-                        }
+						echo "Hello"
+                      }
         }
-     		steps {
-					echo 'Running the integration test..'
-				}
                                
-			}  }
-        }
-    }
+	}
 }
 
 
