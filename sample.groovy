@@ -1,7 +1,7 @@
 pipeline {
     agent { label 'master' } 
 
-     stages {
+      stages {
         stage('One') {
                 steps {
                         echo 'Srinidhi here'
