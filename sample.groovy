@@ -8,9 +8,6 @@ pipeline {
                         echo 'nokia nokia'
 			
                 }
-                steps {
-                        echo 'mine'
-                }
         }
 	    stage('Two'){
 		    
@@ -25,7 +22,7 @@ pipeline {
                         }
                 }
                 steps {
-						echo "Hello"
+			echo "Hello"
                       }
         }
                                
