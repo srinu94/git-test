@@ -1,5 +1,5 @@
 pipeline {
-    agent { label 'nokia' } 
+    agent { label 'master' } 
 
     stages {
         stage('One') {
