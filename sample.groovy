@@ -25,7 +25,13 @@ pipeline {
 			 echo "Hello"
                       }
         }
-                               
+	      
+	  stage ('Deploy') {
+		  
+		  sshagent(['sonar-server']) {
+                    ssh -o StrictHostKeyChecking=no cloud_user@13.56.253.93 hostname -f
+		  }
+		                        
 	}
 }
 
